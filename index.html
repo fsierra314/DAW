@@ -1,48 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REVIEW</title>
-</head>
-<body bgcolor="white">
-    <center>
-    <h1>FRAGMENTADO</h1>
-    <img src="scale.jpeg" style="width: 800px;height: 600;">
-    <p>
-    <strong>Fragmentado o Split, es un film de terror psicológico que cuenta la historia de Kevin Wendell Crumb (James McAvoy),
-    personaje que vive agobiado por sus 23 personalidades múltiples que deciden sin su consentimiento secuestrar a tres inocentes adolescentes.
-     Su único objetivo, es despertar a la identidad número 24.</strong>   
-    </p>
-    </center>
-    <ul>
-        <li>James McAvoy como Kevin Wendell Crumb.</li>
-        <li>Anya Taylor-Joy como Casey Cooke.</li>
-        <li>Betty Buckley como la doctora Karen Fletcher.</li>
-        <li>Haley Lu Richardson como Claire.</li>
-        <li>Jessica Sula como Marcia.</li>
-        <li>Kim Director como Hannah.</li>
-        <li>Brad William Henke como el tío John.</li>
-        <li>Lyne Renée como moderadora académica.</li>
-        <li>Sebastian Arcelus como el señor Cooke.</li>
-        <li>Neal Huff como el señor Benoit.</li>
-        <li>M. Night Shyamalan como Jai.</li>
-        <li>Bruce Willis como David Dunn (véase El protegido y Glass).</li>
-
-
-
-    </ul>
-    <table>
-        <thead>
-        <th>#</th>
-        <th>Lista de videos
-        </th>
-        </thead>
-        <tr>
-            <td><iframe width="360" height="315" src="https://www.youtube.com/embed/HwDr7ff5GD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><iframe width="360" height="315" src="https://www.youtube.com/embed/cu9JVy4xGDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-            <td><iframe width="360" height="315" src="https://www.youtube.com/embed/qqLYUvGnAGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-        </tr>
-    </table>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel API App</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <input type="text" class="input" value="Hulk" id="input-box" />
+        <button class="button" id="submit-button">Submit</button>
+      </div>
+      <div class="list"></div>
+      <div class="display-container" id="show-container"></div>
+      <div class="display-container" id="show-comics"></div>
+    </div>
+    <!-- API Data -->
+    <script src="api-data.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
 </html>
